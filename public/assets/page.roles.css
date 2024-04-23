@@ -1,0 +1,21 @@
+/*!********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./node_modules/@userfrosting/theme-adminlte/app/assets/userfrosting/css/uf-collection.css ***!
+  \********************************************************************************************************************************************************************************/
+/**
+ * Custom CSS for the ufCollection widget.
+ */
+
+/** Prevent rows from overflowing container */
+.uf-collection-col-wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.uf-collection span.select2-dropdown.select2-dropdown--below {
+    position:absolute;
+    top: -32px;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFnZS5yb2xlcy5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQUE7O0VBRUU7O0FBRUYsNkNBQTZDO0FBQzdDO0lBQ0kseUJBQXlCO0lBQ3pCLHFCQUFxQjtJQUNyQixxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSxpQkFBaUI7SUFDakIsVUFBVTtBQUNkIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vbm9kZV9tb2R1bGVzL0B1c2VyZnJvc3RpbmcvdGhlbWUtYWRtaW5sdGUvYXBwL2Fzc2V0cy91c2VyZnJvc3RpbmcvY3NzL3VmLWNvbGxlY3Rpb24uY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQ3VzdG9tIENTUyBmb3IgdGhlIHVmQ29sbGVjdGlvbiB3aWRnZXQuXG4gKi9cblxuLyoqIFByZXZlbnQgcm93cyBmcm9tIG92ZXJmbG93aW5nIGNvbnRhaW5lciAqL1xuLnVmLWNvbGxlY3Rpb24tY29sLXdyYXAge1xuICAgIG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQ7XG4gICAgd29yZC13cmFwOiBicmVhay13b3JkO1xuICAgIHdvcmQtYnJlYWs6IGJyZWFrLWFsbDtcbn1cblxuLnVmLWNvbGxlY3Rpb24gc3Bhbi5zZWxlY3QyLWRyb3Bkb3duLnNlbGVjdDItZHJvcGRvd24tLWJlbG93IHtcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcbiAgICB0b3A6IC0zMnB4O1xufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/

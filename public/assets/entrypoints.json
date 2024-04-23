@@ -1,0 +1,175 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-582c96.js",
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_main_js.js",
+        "/assets/app.js"
+      ],
+      "css": [
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_main_js.css"
+      ]
+    },
+    "page.register": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_speakingurl_index_js.js",
+        "/assets/page.register.js"
+      ]
+    },
+    "page.sign-in": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.sign-in.js"
+      ]
+    },
+    "page.forgot-password": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.forgot-password.js"
+      ]
+    },
+    "page.resend-verification": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.resend-verification.js"
+      ]
+    },
+    "page.set-or-reset-password": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.set-or-reset-password.js"
+      ]
+    },
+    "page.account-settings": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.account-settings.js"
+      ]
+    },
+    "dashboard": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-582c96.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_dashboard_js.js",
+        "/assets/dashboard.js"
+      ],
+      "css": [
+        "/assets/dashboard.css"
+      ]
+    },
+    "page.dashboard": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_users_js.js",
+        "/assets/page.dashboard.js"
+      ]
+    },
+    "page.activities": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.activities.js"
+      ]
+    },
+    "page.group": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_users_js.js",
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_userfrosting_js_uf-collection_js--ca7787.js",
+        "/assets/vendors-node_modules_speakingurl_index_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_groups_js-786dee.js",
+        "/assets/page.group.js"
+      ],
+      "css": [
+        "/assets/page.group.css"
+      ]
+    },
+    "page.groups": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_speakingurl_index_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_groups_js-786dee.js",
+        "/assets/page.groups.js"
+      ],
+      "css": [
+        "/assets/page.groups.css"
+      ]
+    },
+    "page.role": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_users_js.js",
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_userfrosting_js_uf-collection_js--ca7787.js",
+        "/assets/page.role.js"
+      ],
+      "css": [
+        "/assets/page.role.css"
+      ]
+    },
+    "page.roles": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_userfrosting_js_uf-collection_js--ca7787.js",
+        "/assets/vendors-node_modules_speakingurl_index_js.js",
+        "/assets/page.roles.js"
+      ],
+      "css": [
+        "/assets/page.roles.css"
+      ]
+    },
+    "page.permission": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_users_js.js",
+        "/assets/page.permission.js"
+      ]
+    },
+    "page.permissions": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/page.permissions.js"
+      ]
+    },
+    "page.user": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_users_js.js",
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_userfrosting_js_uf-collection_js--ca7787.js",
+        "/assets/page.user.js"
+      ],
+      "css": [
+        "/assets/page.user.css"
+      ]
+    },
+    "page.users": {
+      "js": [
+        "/assets/runtime.js",
+        "/assets/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/assets/vendors-node_modules_userfrosting_sprinkle-admin_app_assets_userfrosting_js_widgets_users_js.js",
+        "/assets/vendors-node_modules_userfrosting_theme-adminlte_app_assets_userfrosting_js_uf-collection_js--ca7787.js",
+        "/assets/page.users.js"
+      ],
+      "css": [
+        "/assets/page.users.css"
+      ]
+    }
+  }
+}
