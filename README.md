@@ -15,8 +15,10 @@ This is not meant as a full UserFrosting install; please see [UserFrosting](http
 
 ## My results
 The Fortress features work correctly, but not quite intuitively for me.
+
 There's no need for a UF issue. I have submitted a documentation PR to clarify how Fortress YAML interacts wth input arrays.
 
 ## Disclaimer
 I did not test multidimensional input arrays.
+
 My current use case only has single-dimensional arrays, and UF recommends AJAX over HTML forms in the later "Client-side code" documentation chapter.
