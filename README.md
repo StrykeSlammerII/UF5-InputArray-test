@@ -7,12 +7,6 @@ I believe I added or edited 5 files:
 * `app/templates/pages/display.html.twig` is a quick-and-dirty (aka *not* robust) Twig template that attempts to show the results of the test processing.
 * `app/src/MyRoutes.php` added a route for the form's submit button.
 
-UF's files retain their original licensing (obviously) while my changes and additions are licensed under [The Unlicense](https://unlicense.org/).
-
-Leave an issue here if this test doesn't run for you, and I'll check if my upload missed important files.
-
-This is not meant as a full UserFrosting install; please see [UserFrosting](https://github.com/userfrosting/UserFrosting/) for that.
-
 ## My results
 The Fortress features work correctly, but not quite intuitively for me.
 
@@ -22,3 +16,12 @@ There's no need for a UF issue. I have submitted a documentation PR to clarify h
 I did not test multidimensional input arrays.
 
 My current use case only has single-dimensional arrays, and UF recommends AJAX over HTML forms in the later "Client-side code" documentation chapter.
+
+## Install
+This repo does not include `/vendor` or `/node_modules` folders. You will need to install [UserFrosting](https://github.com/userfrosting/UserFrosting/) first, but should be able to drop this into a fresh UF installation.
+(It may be easier to copy the 5 files listed above into a fresh installation.)
+
+After that, if this test doesn't run for you, leave an issue here and I'll check if my upload missed important files.
+
+# Licensing
+UF's files retain their original licensing (obviously) while my changes and additions are licensed under [The Unlicense](https://unlicense.org/).
