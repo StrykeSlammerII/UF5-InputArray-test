@@ -1,0 +1,35 @@
+# app/schema/InputArray.yml
+
+# This schema validates that `InputArray` input field is an array, and it is required.
+# We also show that elements are only validated via `InputArray.*` (per Valitron's usage notes)
+#
+# UF's transformations do not recognize `InputArray.*` as a match for any fields.
+# HOWEVER, it matches `InputArray` against the entire array of fields--unlike Valitron!
+#
+# With the default test values, the InputArray validators will NOT trigger any error messages,
+# but the InputArray.* validator WILL trigger.
+#
+# Additionally, this form has CSRF fields--they are not listed here,
+# so Fortress's transformer whitelisting properly strips them.
+#
+InputArray:
+  validators:
+    required:
+      message: "Warehouse Inventory array is required"
+    array:
+      message: "Warehouse must be an input array"
+  #these will transform the entire array
+  transformations:
+  - purge
+  - trim
+
+InputArray.*:
+  #this error will show on the final page, unless all submitted values are integers
+  validators:
+    integer:
+      message: "Input elements must be integers."
+  #these won't transform anything
+  transformations:
+  #- purge
+  - trim
+      

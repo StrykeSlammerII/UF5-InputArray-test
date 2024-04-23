@@ -1,0 +1,16 @@
+{# app/templates/pages/index.html.twig #}
+{% extends "pages/abstract/default.html.twig" %}
+
+{% block page_description %}{{translate("WELCOME_TO", {'title': site.title})}}{% endblock %}
+
+{% block body_matter %}
+      <p>Here is a form with three text fields, all named `InputArray[]`.</p>
+      <form action="/" method="post">
+            {% include "forms/csrf.html.twig" %}
+            <input type="text" name=InputArray[]" value="20"/>
+            <input type="text" name=InputArray[]" value=">10< <br />"/>
+            <input type="text" name=InputArray[]" value="     whitespace     "/>
+            <input type="submit">
+      </form>
+   
+{% endblock %}

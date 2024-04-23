@@ -1,0 +1,54 @@
+{# app/templates/pages/display.html.twig #}
+<p><strong>$params = $request->getParsedBody();</strong></p>
+$params =
+{% for key, value in params %}
+      {% if value is iterable %}
+      <pre>`{{ key }}`=></pre><br/>
+            [<br/>
+            {%  for sub_key, sub_value in value %}
+                  <pre>`{{ sub_key }}`=>`{{ sub_value }}`</pre><br/>
+            {%  endfor %}
+      ]<br/>
+      {% else %}
+            <pre>`{{ key }}`=&gt;`{{ value }}`</pre><br>
+      {% endif %}
+{% endfor %}
+<hr />
+<p><strong>$schema = new RequestSchema('schema://InputArray.yml');</strong></p>
+<p><strong>$transformer = new RequestDataTransformer();</strong></p>
+<p><strong>$data = $transformer->transform($schema, $params);</strong></p>
+$data =
+{% for key, value in data %}
+      {% if value is iterable %}
+      <pre>`{{ key }}`=></pre><br/>
+            [<br/>
+            {%  for sub_key, sub_value in value %}
+                  <pre>`{{ sub_key }}`=>`{{ sub_value }}`</pre><br/>
+            {%  endfor %}
+      ]<br/>
+      {% else %}
+            <pre>`{{ key }}`=&gt;`{{ value }}`</pre><br>
+      {% endif %}
+{% endfor %}
+<hr />      
+<p><strong>$validator = new ServerSideValidator($this->translator);</strong></p>
+<p><strong>$errors = $validator->validate($schema, $data);</strong></p>
+<p><strong>$e = array();</strong></p>
+<p><strong>foreach ($errors as $this_error) {</strong></p>
+<p><strong>$e[]=$this_error;</strong></p>
+<p><strong>}</strong></p>
+$e =
+{% for key, value in errors %}
+      {% if value is iterable %}
+      <pre>`{{ key }}`=></pre><br/>
+            [<br/>
+            {%  for sub_key, sub_value in value %}
+                  <pre>`{{ sub_key }}`=>`{{ sub_value }}`</pre><br/>
+            {%  endfor %}
+      ]<br/>
+      {% else %}
+            <pre>`{{ key }}`=&gt;`{{ value }}`</pre><br>
+      {% endif %}
+{% endfor %}
+<hr />
+<p><strong>return $view->render($response, 'pages/display.html.twig');</strong></p>
